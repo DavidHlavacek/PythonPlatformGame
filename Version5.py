@@ -2,6 +2,7 @@ import pygame
 import random
 from pygame.locals import *
 from os import path
+import os
 
 def load_image(name):
 	image = pygame.image.load(name)
@@ -35,7 +36,7 @@ clock = pygame.time.Clock()
 screen.set_alpha(None)
 
 
-player_hearth_img = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/pixelheart.png").convert_alpha()
+player_hearth_img = pygame.image.load(os.path.join("Images/pixelheart.png")).convert_alpha()
 player_hearth_img = pygame.transform.scale(player_hearth_img, (63,63))
 font_name = pygame.font.match_font('arial')
 
@@ -134,7 +135,7 @@ class Player(pygame.sprite.Sprite):
 	def __init__(self):
 
 		pygame.sprite.Sprite.__init__(self)
-		self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/spriteHITBOX.png").convert_alpha()
+		self.image = pygame.image.load("Images/spriteHITBOX.png").convert_alpha()
 		self.image = pygame.transform.scale(self.image, (115,144))
 
 		#self.rect = pygame.Rect(90, 10, 75, 230)
@@ -177,7 +178,7 @@ class Player(pygame.sprite.Sprite):
 			
 		self.keysstop = False
 
-		self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/spriteSTILL.png").convert_alpha()
+		self.image = pygame.image.load("Images/spriteSTILL.png").convert_alpha()
 		self.image = pygame.transform.scale(self.image, (115,144))
 		#self.radius = pygame.draw.rect(self.image, GREEN, self.image.get_rect(), 2)
 		
@@ -186,13 +187,13 @@ class Player(pygame.sprite.Sprite):
 		keys = pygame.key.get_pressed()
 
 		if keys[K_a] and self.rect.x > 10 and self.keysstop == False:
-			self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/spriteLEFT.png").convert_alpha()
+			self.image = pygame.image.load("Images/spriteLEFT.png").convert_alpha()
 			self.image = pygame.transform.scale(self.image, (86,152))
 			#self.radius = pygame.draw.rect(self.image, GREEN, self.image.get_rect(), 2)
 			self.speedx -= self.velocity
 
 		if keys[K_d] and self.rect.x < 1150 and self.keysstop == False:
-			self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/spriteRIGHT.png").convert_alpha()
+			self.image = pygame.image.load("Images/spriteRIGHT.png").convert_alpha()
 			self.image = pygame.transform.scale(self.image, (87,152))
 			#self.radius = pygame.draw.rect(self.image, GREEN, self.image.get_rect(), 2)
 			self.speedx += self.velocity
@@ -250,8 +251,8 @@ class Mob(pygame.sprite.Sprite):
 	def __init__(self):
 		#"C:/Users/Lenovo/Documents/Python_Game/Images/asteroid111.jpg",
 		meteor_images = []
-		meteor_list = ["C:/Users/Lenovo/Documents/Python_Game/Images/asteroid.png",   
-				"C:/Users/Lenovo/Documents/Python_Game/Images/asteroid333.png"]
+		meteor_list = ["Images/asteroid.png",   
+				"Images/asteroid333.png"]
 
 		
 		pygame.sprite.Sprite.__init__(self)
@@ -334,7 +335,7 @@ class Mob2(pygame.sprite.Sprite):
 		
 		
 		pygame.sprite.Sprite.__init__(self)
-		self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/projectileee.png").convert_alpha()
+		self.image = pygame.image.load("Images/projectileee.png").convert_alpha()
 		self.image = pygame.transform.scale(self.image, (80,30))
 		self.rect = self.image.get_rect()
 		# self.radius = pygame.draw.rect(self.image, GREEN, self.image.get_rect(), 2)
@@ -449,8 +450,8 @@ class Mob3(pygame.sprite.Sprite):
 	
 		pygame.sprite.Sprite.__init__(self)
 		self.images = []
-		self.images.append(load_image("C:/Users/Lenovo/Documents/Python_Game/Images/whitespikefinalhalf.png").convert_alpha())
-		self.images.append(load_image("C:/Users/Lenovo/Documents/Python_Game/Images/piques.png").convert_alpha())
+		self.images.append(load_image("Images/whitespikefinalhalf.png").convert_alpha())
+		self.images.append(load_image("Images/piques.png").convert_alpha())
 		#self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/whitespikefinalhalf.png")
 		#self.image = pygame.transform.scale(self.image, (1282, 227))
 		#self.image = pygame.transform.scale(self.image, (1282, 25))
@@ -520,7 +521,7 @@ class Mob4(pygame.sprite.Sprite):
 	def __init__(self):
 
 		pygame.sprite.Sprite.__init__(self)
-		self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/whitespikefinal22.png").convert_alpha()
+		self.image = pygame.image.load("Images/whitespikefinal22.png").convert_alpha()
 		self.image = pygame.transform.scale(self.image, (1282, 38))
 		#self.radius = pygame.draw.rect(self.image, GREEN, self.image.get_rect(), 2)
 		self.rect = self.image.get_rect()
@@ -549,7 +550,7 @@ class Mob4(pygame.sprite.Sprite):
 			else:
 
 				self.stop2 += 1
-				self.image = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/whitespikefinalhalf.png").convert_alpha()
+				self.image = pygame.image.load("Images/whitespikefinalhalf.png").convert_alpha()
 				self.image = pygame.transform.scale(self.image, (1282, 25))
 				self.rect.x = -5
 				self.rect.y = 672 
@@ -621,7 +622,7 @@ class Mob4(pygame.sprite.Sprite):
 
 	
 
-background = pygame.image.load("C:/Users/Lenovo/Documents/Python_Game/Images/background.jpg").convert_alpha()
+background = pygame.image.load("Images/background.jpg").convert_alpha()
 
 
 
