@@ -22,7 +22,7 @@ Before running the Python platform game, ensure you have the following prerequis
 ## Setup and Running 🛠️
 1. Clone the repository
 3. Open a terminal or command prompt.
-4. Navigate to src the directory where "main.py" is located.
+4. Navigate to the directory `src` where `main.py` is located.
 5. Run the following command to install the pygame library:
   
      ```
