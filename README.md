@@ -10,6 +10,7 @@ Hey guys! Thank you for checking out my platform game. This was a project I crea
 - **Parabolic/Physics-Perfect Jump**: Realistic jumping mechanics to enhance the platforming challenge.
 - **Sprite Animation**: Animated sprites for more lively and engaging visuals.
 - **Randomized Gameplay**: Each run is different, providing unique challenges and experiences.
+- **Obstacle Damage**: Each type of obstacle inflicts different damage levels, adding to the game's strategic depth.
 
 ## Prerequisites 📋
 Before running the Python platform game, ensure you have the following prerequisites installed on your system:
