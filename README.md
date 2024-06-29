@@ -1,4 +1,4 @@
-# 🎮 PythonPlatformGame
+# 🎮 Savana Rumble
 A small platform game made in Python
 
 Hey guys! Thank you for checking out my platform game. This was a project I created when I was 13 years old. While the optimization might not be the best, I have plans to improve it in the future. Enjoy playing!
