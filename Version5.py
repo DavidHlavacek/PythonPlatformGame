@@ -28,8 +28,8 @@ gravity = 0.8
 
 pygame.init()
 pygame.mixer.init()
-flags = FULLSCREEN | DOUBLEBUF
-#flags = DOUBLEBUF
+# flags = FULLSCREEN | DOUBLEBUF
+flags = DOUBLEBUF
 screen = pygame.display.set_mode((WIDTH, HEIGHT), flags, 32)
 pygame.display.set_caption("SAVANA RUMBLE")
 clock = pygame.time.Clock()

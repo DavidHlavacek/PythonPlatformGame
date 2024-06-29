@@ -1,0 +1,12 @@
+WIDTH = 1270
+HEIGHT = 720
+FPS = 60
+HS_FILE = "highscore.txt"
+
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+SPECIALRED = (255, 111, 97)
+CHILLIPEPPER = (155, 27, 48)
+gravity = 0.8
