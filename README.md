@@ -27,8 +27,7 @@ Before running the Python platform game, ensure you have the following prerequis
      ```
 
 ## Setup and Running 🛠️
-1. Clone the repository or download the ZIP file from the [repository](https://github.com/DavidHlavacek/PythonPlatformGame).
-2. Ensure the "Images" folder is in the same directory as the "Version5.py" file.
+1. Clone the repository
 3. Open a terminal or command prompt.
 4. Navigate to the directory where "Version5.py" is located.
 5. Run the game using the following command:
@@ -44,16 +43,16 @@ Before running the Python platform game, ensure you have the following prerequis
 4. **Avoid Obstacles**: Avoid comets, bullets, and spikes to survive as long as possible.
 5. **Survive**: The longer you survive, the higher your score.
 
+## Demo 📹
+![Savana-Rumble](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/81240502-f589-4445-9e4a-a0116f92e158)
+![Demo](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/fb545c1b-ccdc-44b4-8501-1eff5b814c91)
+
 ## Future Plans 🌐
 - **Optimization**: Improve code structure and optimize performance.
 - **Highscore**: Implement a highscore tracking system.
 - **Pause Functionality**: Add a pause feature.
 - **Super Powers**: Introduce new abilities for the player.
 - **Executable File**: Convert the game into an executable file for easier distribution.
-
-## Demo 📹
-![Savana-Rumble](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/81240502-f589-4445-9e4a-a0116f92e158)
-![Demo](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/fb545c1b-ccdc-44b4-8501-1eff5b814c91)
 
 ## Disclaimer ℹ️
 This project is a work in progress and was created when I was 13 years old. Future updates will improve performance and add new features.
