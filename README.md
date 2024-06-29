@@ -43,8 +43,6 @@ Before running the Python platform game, ensure you have the following prerequis
 ## Demo 📹
 ![Savana-Rumble](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/331f24ed-970b-4f0f-8c2f-5a898c8e5abf)
 ![Demo](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/fb545c1b-ccdc-44b4-8501-1eff5b814c91)
-![Demo2](https://github.com/DavidHlavacek/PythonPlatformGame/assets/73235575/74e8f075-1158-4db7-bbe2-fbedc00e1c57)
-
 
 ## Future Plans 🌐
 - **Optimization**: Improve code structure and optimize performance.
